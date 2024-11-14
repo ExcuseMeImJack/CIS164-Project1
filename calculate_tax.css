@@ -1,0 +1,28 @@
+.program-box {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid blue;
+    padding: 0 2em 1em;
+}
+.program-title {
+    color: blue;
+}
+.program-title-container, .program-tax-container {
+    margin-bottom: 1em;
+}
+.program-label {
+    display: inline-block;
+    width: 11em;
+    text-align: left;
+}
+.program-input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+/*div that's the 2nd child of its parent element (main) */
+div:nth-child(2) {
+    margin-bottom: 1.5em;
+}

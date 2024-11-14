@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jack Roybal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="calculate_tax.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-dark bg-gradient text-white text-center">
+  <h1>Jack Roybal</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-secondary bg-gradient navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#income-tax">Income Tax</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <div class="">
+        <img
+          src="public/Profile.jpg"
+          class="img-fluid rounded"
+        />
+      </div>
+      <p>Hello! I'm Jack, specializing in creating seamless web experiences as both a Frontend and Backend Engineer. From minimal backend sites to comprehensive fullstack applications, my aim is always improvement through learning and collaboration.</p>
+      <h3 class="mt-4">Some Links</h3>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#income-tax">Income Tax</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>CIS 164 - JavaScript Programming</h2>
+      <h5>What is this Course? | Nov 14, 2024</h5>
+      <div class="">
+        <img
+          src="public/js.png"
+          class="img-fluid rounded"
+        />
+      </div>
+      <p>This course covers client-side Web scripting using JavaScript and other Web page development tools. It covers the programming techniques of JavaScript useful to Web designers. Students will learn to create interactive and dynamic Web pages.</p>
+      <h5>Students Learning Outcomes (SLOs)</h5>
+      <ol>
+        <li>Understand front end Web development</li>
+        <li>Create JavaScript statements</li>
+        <li>Work with JavaScript objects, functions, and events</li>
+        <li>Learn how to debug and test a JavaScript application</li>
+        <li>Learn how to script the DOM (Document Object Model) with JavaScript</li>
+        <li>Work with images and form validation</li>
+        <li>Understand what a JavaScript Library is</li>
+      </ol>
+
+      <h2 id="income-tax">Chapter 6-4 | Activity Assignment</h2>
+      <h5>Nov 2, 2024</h5>
+      <div class="program-box w-auto">
+        <div class="program-title-container">
+          <h1 class="program-title">Income Tax Calculator</h1>
+        <div>
+        <label class="program-label">Enter taxable income:</label>
+        <input class="program-input" type="text" id="income" />
+        <input class="program-input" type="button" value="Calculate" name="calculate" id="calculate" />
+      </div>
+      <div class="program-tax-container">
+        <label class="program-label">Income tax owed:</label>
+        <input class="program-input" type="text" id="tax" disabled>
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <span>Jack Roybal |</span>
+  <a class="text-info" href="https://jroybaldev.vercel.app/" target="_blank">Portfolio</a>
+</div>
+<script src="calculate_tax.js"></script>
+</body>
+</html>
