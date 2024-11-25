@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jack Roybal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="subset_expansion.css">
+  <style>
+    main {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .content {
+      display: none;
+    }
+    .toggle-btn {
+      display: block;
+      margin-top: 10px;
+      color: #007BFF;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    .hidden-content {
+      display: none;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="p-5 bg-dark bg-gradient text-white text-center">
+  <h1>Jack Roybal</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-secondary bg-gradient navbar-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#income-tax">Income Tax</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="jqueryExpandCollapse.html">JQuery Expand Collapse</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <div class="section">
+    <h2>My Story</h2>
+    <p>From a young age, I was inspired by technology. What drove me to it was my favorite story.</p>
+    <div class="hidden-content">
+      When I was 13 years old, I attended a career fair at my middle school, and that's where it all began. As I explored the Project Lead The Way booths from the high school I would soon be attending, I was immediately drawn to a motherboard. I was captivated by the blend of green and gold, and I could feel the pricks of the capacitors beneath my fingertips. At that moment, I realized I wanted to learn everything I could about it all.
+    </div>
+    <span class="toggle-btn">Show more</span>
+  </div>
+
+  <div class="section">
+    <h2>What I Do</h2>
+    <p>I am a Software Engineer and a veratile Frontend and Backend Engineer. </p>
+    <div class="hidden-content">
+      My expertise lies in full-stack development, and I enjoy exploring new tools and frameworks to stay updated in the tech industry.I thrive on helping others by creating impactful products while constantly learning and improving existing systems.
+    </div>
+    <span class="toggle-btn">Show more</span>
+  </div>
+
+  <div class="section">
+    <h2>My Education</h2>
+    <p>My past is a confusing one. Off-and-on college, bootcamps, and self learning. It's a lot to think about but every step helped me.</p>
+    <div class="hidden-content">
+      After high school, I chose to attend Cerritos College for a year and a half. However, I soon realized that I wasn't benefiting much from the curriculum, as I was already familiar with most of the material. It felt repetitive, and with the onset of the pandemic, I decided to take a two-year break. During that time, I enrolled in a bootcamp to enhance my software engineering skills. While I wasn't able to secure a position in the field afterward, I don't regret the experience. Now, I'm back at Cerritos, completing the necessary courses to earn my degree and advance my career.
+    </div>
+    <span class="toggle-btn">Show more</span>
+  </div>
+
+  <div class="section">
+    <h2>My Experience</h2>
+    <p>After the bootcamp, I got some experience. From hackathons to internships.</p>
+    <div class="hidden-content">
+      My experiences have provided me with a distinctive perspective on teamwork, user-centric design, and the development of impactful solutions. I have participated in hackathons and have gained valuable insights through various internships. My most recent and rewarding internship is with the African Marine Mammals Conservation Organization, where I work as a Frontend Developer utilizing Next.js, React, and Tailwind to create interactive designs. Currently, we are undertaking a complete overhaul of the main site. This internship enables me to pursue my passion while contributing positively to the world.
+    </div>
+    <span class="toggle-btn">Show more</span>
+  </div>
+</main>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="subset_expansion.js"></script>
+
+<div class="mt-5 p-4 bg-dark text-white text-center">
+  <span>Jack Roybal |</span>
+  <a class="text-info" href="https://jroybaldev.vercel.app/" target="_blank">Portfolio</a>
+</div>
+
+</body>
+</html>
