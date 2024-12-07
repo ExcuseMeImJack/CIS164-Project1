@@ -1,0 +1,25 @@
+#image_swap h1,
+#image_swap h2,
+#image_swap ul,
+#image_swap p {
+	margin: 0;
+	padding: 0;
+}
+
+#image_swap h1 {
+	padding-bottom: .25em;
+}
+
+#image_swap h2 {
+	font-size: 120%;
+	padding: .5em 0 .25em;
+}
+
+#image_swap ul {
+	list-style: none;
+}
+
+#image_swap li {
+	padding-right: 10px;
+	display: inline;
+}
