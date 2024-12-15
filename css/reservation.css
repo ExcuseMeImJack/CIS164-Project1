@@ -1,0 +1,65 @@
+.reservation-form__field-container {
+    margin-bottom: 0.5em;
+}
+
+.reservation-form__fieldset {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+}
+
+.reservation-form__legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 85%;
+    margin-bottom: .5em;
+}
+
+.reservation-form__label {
+    display: inline-block;
+    width: 6em;
+}
+
+.reservation-form__input,
+.reservation-form__select {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+
+.reservation-form__input {
+    width: 14em;
+}
+
+.reservation-form__input--left {
+    width: 1em;
+    padding-left: 0;
+}
+
+.reservation-form__paragraph {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+/* Uncomment if needed
+.reservation-form__input--last {
+    margin-bottom: 1em;
+}
+*/
+.reservation-form__adults,
+.reservation-form__children {
+    width: 35px;
+}
+
+.reservation-form__smoking {
+    width: 1em;
+    margin-left: 0;
+}
+
+.reservation-form__submit {
+    margin-left: 0;
+    width: 10em;
+}
+
+.reservation-form__error {
+    color: red;
+}
